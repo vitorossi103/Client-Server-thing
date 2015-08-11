@@ -16,6 +16,8 @@ public class Server {
 					clientSocket.getInputStream()));
 			
 			// get client message
+			
+			// here's a change added a comment
 			while ((input = bufferedReader.readLine()) != null) {
 				System.out.println(input);
 			}
